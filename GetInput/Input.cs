@@ -1,14 +1,14 @@
 ﻿using System;
-namespace GetInput;
+namespace GetUserInput;
 
-public class Get
+public class Input
 {
     /* Get a number from user and handle all possible exceptions */
     public int GetInt(string prompt)
     {
         while (true)
         {
-            Console.WriteLine(prompt);
+            Console.Write(prompt);
             
             try
             {
