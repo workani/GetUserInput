@@ -11,7 +11,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("workani")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.1.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.1+87517dff54cef7b51a00f7075a21414db5427516")]
 [assembly: System.Reflection.AssemblyProductAttribute("GetUserInput")]

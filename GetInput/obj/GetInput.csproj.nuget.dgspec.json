@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/workand/RiderProjects/GetInput/GetInput/GetInput.csproj": {}
+    "/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/GetInput.csproj": {}
   },
   "projects": {
-    "/Users/workand/RiderProjects/GetInput/GetInput/GetInput.csproj": {
+    "/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/GetInput.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/workand/RiderProjects/GetInput/GetInput/GetInput.csproj",
-        "projectName": "GetInput",
-        "projectPath": "/Users/workand/RiderProjects/GetInput/GetInput/GetInput.csproj",
+        "projectUniqueName": "/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/GetInput.csproj",
+        "projectName": "GetUserInput",
+        "projectPath": "/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/GetInput.csproj",
         "packagesPath": "/Users/workand/.nuget/packages/",
-        "outputPath": "/Users/workand/RiderProjects/GetInput/GetInput/obj/",
+        "outputPath": "/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/workand/.nuget/NuGet/NuGet.Config"

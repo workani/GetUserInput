@@ -4,7 +4,7 @@ namespace GetUserInput;
 public class Input
 {
     /* Get a number from user and handle all possible exceptions */
-    public int GetInt(string prompt)
+    public static int GetInt(string prompt)
     {
         while (true)
         {
@@ -33,7 +33,7 @@ public class Input
     {
         while (true)
         {
-            Console.WriteLine(prompt);
+            Console.Write(prompt);
             
             try
             {
@@ -110,7 +110,15 @@ public class Input
                 Console.WriteLine("\u001b[31mProvided string is empty, please type it again!\u001b[0m");
             }
         }
-      
+    }
+    
+    /* Get char */
+    
+    public static char GetChar(string prompt)
+    {
+        Console.Write(prompt);
+
+        return Console.ReadLine()[0];
     }
     
     /* Get the path to a file or a directory and check if it exists */
@@ -149,5 +157,29 @@ public class Input
         }
     }
     
-    
+    /* Get agreement (yes or no) from the user */
+    public static bool GetAgreement(string prompt)
+    {
+        while (true)
+        {
+            Console.Write(prompt);
+
+            // get input from user, force it lowercase and delete whitespaces
+            string choice = Console.ReadLine().Trim().ToLower();
+
+            if (choice == "y")
+            {
+                return true;
+            }
+            else if(choice == "n")
+            {
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("\u001b[31mProvided input is incorrect. Please type \"y\" or \"n\"! \u001b[0m");
+            }
+                
+        }
+    }
 }

@@ -4,6 +4,12 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <AssemblyName>GetUserInput</AssemblyName>
+        <RootNamespace>GetUserInput</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.1.1</Version>
+        <Authors>workani</Authors>
+        <RepositoryUrl>https://github.com/workani/GetUserInput</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
