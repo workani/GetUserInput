@@ -10,6 +10,9 @@
         <Version>0.1.1</Version>
         <Authors>workani</Authors>
         <RepositoryUrl>https://github.com/workani/GetUserInput</RepositoryUrl>
+        <Title>GetUserInput</Title>
+        <Description>Lightweight library for getting different types of user input.</Description>
+        <Copyright>MIT</Copyright>
     </PropertyGroup>
 
 </Project>

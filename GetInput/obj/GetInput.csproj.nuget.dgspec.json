@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/GetInput.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.1",
       "restore": {
         "projectUniqueName": "/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/GetInput.csproj",
         "projectName": "GetUserInput",

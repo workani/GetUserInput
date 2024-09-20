@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GetUserInput</id>
+    <version>0.1.1</version>
+    <authors>workani</authors>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/workani/GetUserInput" commit="8f80b91d2055b2090eb9bb2c9c1005f518992a87" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/bin/Release/net8.0/GetUserInput.dll" target="lib/net8.0/GetUserInput.dll" />
+  </files>
+</package>

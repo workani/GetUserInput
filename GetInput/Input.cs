@@ -182,4 +182,17 @@ public class Input
                 
         }
     }
+
+    /* get current date in specified format e.g "yyyy-MM-dd", "M/d/yyyy" or "yyyy-MM-dd hh:mm:ss"*/
+    public static string GetCurrentFormatedDate(string dateFormat)
+    {
+        try
+        {
+            return DateTime.Now.ToString(dateFormat);
+        }
+        catch (FormatException)
+        {
+            throw new ArgumentException("Invalid date format provided.");
+        }   
+    }
 }

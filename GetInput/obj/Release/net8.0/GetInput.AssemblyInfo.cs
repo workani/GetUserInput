@@ -12,8 +12,10 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("workani")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("MIT")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Lightweight library for getting different types of user input.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.1+87517dff54cef7b51a00f7075a21414db5427516")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.1+8f80b91d2055b2090eb9bb2c9c1005f518992a87")]
 [assembly: System.Reflection.AssemblyProductAttribute("GetUserInput")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GetUserInput")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.1.0")]

@@ -1,0 +1,12 @@
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/bin/Release/net8.0/GetUserInput.deps.json
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/bin/Release/net8.0/GetUserInput.dll
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/bin/Release/net8.0/GetUserInput.pdb
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/GetInput.GeneratedMSBuildEditorConfig.editorconfig
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/GetInput.AssemblyInfoInputs.cache
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/GetInput.AssemblyInfo.cs
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/GetInput.csproj.CoreCompileInputs.cache
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/GetInput.sourcelink.json
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/GetUserInput.dll
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/refint/GetUserInput.dll
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/GetUserInput.pdb
+/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/obj/Release/net8.0/ref/GetUserInput.dll
