@@ -7,7 +7,7 @@
         <AssemblyName>GetUserInput</AssemblyName>
         <RootNamespace>GetUserInput</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.1.1</Version>
+        <Version>0.1.2</Version>
         <Authors>workani</Authors>
         <RepositoryUrl>https://github.com/workani/GetUserInput</RepositoryUrl>
         <Title>GetUserInput</Title>

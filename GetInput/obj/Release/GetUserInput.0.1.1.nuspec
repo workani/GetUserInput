@@ -3,8 +3,10 @@
   <metadata>
     <id>GetUserInput</id>
     <version>0.1.1</version>
+    <title>GetUserInput</title>
     <authors>workani</authors>
-    <description>Package Description</description>
+    <description>Lightweight library for getting different types of user input.</description>
+    <copyright>MIT</copyright>
     <repository type="git" url="https://github.com/workani/GetUserInput" commit="8f80b91d2055b2090eb9bb2c9c1005f518992a87" />
     <dependencies>
       <group targetFramework="net8.0" />
