@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+
 namespace GetUserInput;
 
 public class Input
@@ -34,10 +36,13 @@ public class Input
         while (true)
         {
             Console.Write(prompt);
+
+            // Get number from user and replace separator for easier parse to double
+            string number = Console.ReadLine().Replace(',', '.');
             
             try
             {
-                return Convert.ToDouble(Console.ReadLine());
+                return double.Parse(number, CultureInfo.InvariantCulture);
             }
             catch (FormatException)
             {

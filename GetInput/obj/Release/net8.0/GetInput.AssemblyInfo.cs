@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("MIT")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Lightweight library for getting different types of user input.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.2+d75631539fb619cf66530e30188bf5eeced49cce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.2+00e5373824b872d5b02c2179664e7dd5f2325ffb")]
 [assembly: System.Reflection.AssemblyProductAttribute("GetUserInput")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GetUserInput")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.2.0")]
