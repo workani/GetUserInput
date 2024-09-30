@@ -7,12 +7,16 @@
         <AssemblyName>GetUserInput</AssemblyName>
         <RootNamespace>GetUserInput</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.1.3</Version>
+        <Version>0.1.4</Version>
         <Authors>workani</Authors>
         <RepositoryUrl>https://github.com/workani/GetUserInput</RepositoryUrl>
         <Title>GetUserInput</Title>
         <Description>Lightweight library for getting different types of user input.</Description>
         <Copyright>MIT</Copyright>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Colorful.Console" Version="1.2.15" />
+    </ItemGroup>
 
 </Project>

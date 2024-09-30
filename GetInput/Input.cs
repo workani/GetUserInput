@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Drawing;
 using System.Globalization;
+using Colorful;
+using Console = Colorful.Console;
 
 namespace GetUserInput;
 
@@ -18,15 +21,15 @@ public class Input
             }
             catch (FormatException)
             {
-                Console.WriteLine("\u001b[31mPlease, type a valid number.\u001b[0m");
+                Console.WriteLine("Please, type a valid number.", Color.Red);
             }
             catch (OverflowException)
             {
-                Console.WriteLine($"\u001b[31mProvided number is too large or to small.\u001b[0m");
+                Console.WriteLine("Provided number is too large or too small.", Color.Red);
             }
             catch (Exception e)
             {
-                Console.WriteLine("\u001b[31mSomething went wrong. Please try typing your input again!\u001b[0m");
+                Console.WriteLine("Something went wrong. Please try typing your input again!", Color.Red);
             }
         }
     }
@@ -46,20 +49,18 @@ public class Input
             }
             catch (FormatException)
             {
-                Console.WriteLine("\u001b[31mPlease, type a valid number.\u001b[0m");
+                Console.WriteLine("Please, type a valid number.", Color.Red);
             }
             catch (OverflowException)
             {
-                Console.WriteLine($"\u001b[31mProvided number is too large or to small.\u001b[0m");
+                Console.WriteLine("Provided number is too large or too small.", Color.Red);
             }
             catch (Exception e)
             {
-                Console.WriteLine("\u001b[31mSomething went wrong. Please try typing your input again!\u001b[0m");
+                Console.WriteLine("Something went wrong. Please try typing your input again!", Color.Red);
             }
         }
     }
-
-   
 
     public static int GetInRangeInt(int lowerBound, int upperBound, string prompt)
     {
@@ -78,21 +79,21 @@ public class Input
                 }
                 else
                 {
-                    Console.WriteLine($"\u001b[31mPlease, type a number in range {lowerBound}-{upperBound}.\u001b[0m");
+                    Console.WriteLine($"Please, type a number in range {lowerBound}-{upperBound}.", Color.Red);
                 }
                     
             }
             catch (FormatException)
             {
-                Console.WriteLine("\u001b[31mPlease, type a valid number.\u001b[0m");
+                Console.WriteLine("Please, type a valid number.", Color.Red);
             }
             catch (OverflowException)
             {
-                Console.WriteLine($"\u001b[31mProvided number is too large or to small. Please, type a number in range {lowerBound}-{upperBound}.\u001b[0m");
+                Console.WriteLine($"Provided number is too large or too small. Please, type a number in range {lowerBound}-{upperBound}.", Color.Red);
             }
             catch (Exception e)
             {
-                Console.WriteLine("\u001b[31mSomething went wrong. Please try typing your input again!\u001b[0m");
+                Console.WriteLine("Something went wrong. Please try typing your input again!", Color.Red);
             }
         }
     }
@@ -112,7 +113,7 @@ public class Input
             }
             else
             {
-                Console.WriteLine("\u001b[31mProvided string is empty, please type it again!\u001b[0m");
+                Console.WriteLine("Provided string is empty, please type it again!", Color.Red);
             }
         }
     }
@@ -140,7 +141,7 @@ public class Input
             }
             else
             {
-                Console.WriteLine("\u001b[31m Provided path to the file is incorrect. Please, try again!\u001b[0m");
+                Console.WriteLine("Provided path to the file is incorrect. Please, try again!", Color.Red);
             }
         }
     }
@@ -157,7 +158,7 @@ public class Input
             }
             else
             {
-                Console.WriteLine("\u001b[31mThe provided folder doesn't exist. Please provide the correct path to your folder!\u001b[0m");
+                Console.WriteLine("The provided folder doesn't exist. Please provide the correct path to your folder!", Color.Red);
             }
         }
     }
@@ -182,7 +183,7 @@ public class Input
             }
             else
             {
-                Console.WriteLine("\u001b[31mProvided input is incorrect. Please type \"y\" or \"n\"! \u001b[0m");
+                Console.WriteLine("Provided input is incorrect. Please type \"y\" or \"n\"!", Color.Red);
             }
                 
         }

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GetUserInput</id>
+    <version>0.1.3</version>
+    <title>GetUserInput</title>
+    <authors>workani</authors>
+    <description>Lightweight library for getting different types of user input.</description>
+    <copyright>MIT</copyright>
+    <repository type="git" url="https://github.com/workani/GetUserInput" commit="de971648da27c93cb68ca7cf3d31e5ee7b57292f" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Colorful.Console" version="1.2.15" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/workand/Library/Mobile Documents/com~apple~CloudDocs/Coding/C#/GetInput/GetInput/bin/Debug/net8.0/GetUserInput.dll" target="lib/net8.0/GetUserInput.dll" />
+  </files>
+</package>
